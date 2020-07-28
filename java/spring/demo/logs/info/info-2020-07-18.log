@@ -1,0 +1,189 @@
+[2020-07-18 20:38:09.297] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 3476 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:38:09.300] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:38:09.372] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-18 20:38:09.372] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-18 20:38:11.382] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:38:11.418] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:38:11.419] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:38:11.419] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:38:11.575] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:38:11.575] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 2202 ms
+[2020-07-18 20:38:12.186] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:38:12.217] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:38:12.293] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:38:12.296] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-18 20:38:12.304] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-18 20:38:50.296] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 8384 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:38:50.298] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:38:50.328] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-18 20:38:50.329] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-18 20:38:51.361] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:38:51.367] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:38:51.367] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:38:51.368] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:38:51.422] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:38:51.423] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1094 ms
+[2020-07-18 20:38:51.849] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:38:51.874] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:38:51.935] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:38:51.937] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-18 20:38:51.944] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-18 20:41:45.965] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1388 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:41:45.968] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:41:46.009] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-18 20:41:46.010] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-18 20:41:47.080] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:41:47.088] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:41:47.088] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:41:47.088] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:41:47.143] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:41:47.144] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1134 ms
+[2020-07-18 20:41:47.399] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-18 20:41:47.491] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:41:47.517] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:41:47.708] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:41:47.751] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-18 20:41:47.752] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-18 20:41:47.764] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-18 20:41:47.809] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-18 20:41:47.914] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.405 seconds (JVM running for 3.169)
+[2020-07-18 20:42:02.125] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-18 20:42:02.126] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-18 20:42:02.134] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 8 ms
+[2020-07-18 20:44:53.725] INFO [Thread-124] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:44:53.792] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1388 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:44:53.793] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:44:53.996] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:44:53.996] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:44:53.997] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:44:53.997] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:44:54.008] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:44:54.009] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 213 ms
+[2020-07-18 20:44:54.050] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:44:54.078] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:44:54.082] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:44:54.087] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-18 20:44:54.089] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.328 seconds (JVM running for 189.345)
+[2020-07-18 20:44:54.090] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-18 20:44:55.697] INFO [Thread-128] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:44:55.755] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1388 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:44:55.755] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:44:56.071] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:44:56.072] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:44:56.072] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:44:56.073] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:44:56.082] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:44:56.082] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 325 ms
+[2020-07-18 20:44:56.157] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-18 20:44:56.177] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:44:56.180] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:44:56.209] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:44:56.214] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-18 20:44:56.215] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-18 20:44:56.215] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-18 20:44:56.219] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-18 20:44:56.230] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.5 seconds (JVM running for 191.486)
+[2020-07-18 20:44:56.255] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2020-07-18 20:45:13.017] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-18 20:45:13.018] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-18 20:45:13.021] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 3 ms
+[2020-07-18 20:53:06.285] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 2668 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:53:06.287] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:53:06.319] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-18 20:53:06.319] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-18 20:53:07.160] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:53:07.166] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:53:07.166] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:53:07.167] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:53:07.221] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:53:07.221] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 902 ms
+[2020-07-18 20:53:07.452] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-18 20:53:07.536] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:53:07.562] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:53:07.639] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:53:07.657] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-18 20:53:07.658] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-18 20:53:07.673] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-18 20:53:07.695] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-18 20:53:07.803] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.032 seconds (JVM running for 2.649)
+[2020-07-18 20:53:12.395] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-18 20:53:12.396] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-18 20:53:12.399] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 3 ms
+[2020-07-18 20:55:03.531] INFO [Thread-124] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:55:03.606] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 2668 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 20:55:03.606] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 20:55:03.955] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 20:55:03.956] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:55:03.956] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 20:55:03.956] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 20:55:03.966] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 20:55:03.966] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 358 ms
+[2020-07-18 20:55:04.055] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-18 20:55:04.086] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 20:55:04.091] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 20:55:04.124] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-18 20:55:04.129] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-18 20:55:04.130] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-18 20:55:04.130] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-18 20:55:04.134] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-18 20:55:04.169] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.597 seconds (JVM running for 119.014)
+[2020-07-18 20:55:04.171] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-18 20:55:05.061] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-18 20:55:05.063] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-18 20:55:05.065] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 2 ms
+[2020-07-18 21:01:28.693] INFO [Thread-128] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-18 21:01:28.786] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 2668 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-18 21:01:28.787] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-18 21:01:29.239] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-18 21:01:29.239] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-18 21:01:29.240] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-18 21:01:29.240] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-18 21:01:29.253] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-18 21:01:29.253] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 463 ms
+[2020-07-18 21:01:29.367] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-18 21:01:29.399] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-18 21:01:29.405] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-18 21:01:29.452] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-18 21:01:29.456] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-18 21:01:29.457] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-18 21:01:29.458] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-18 21:01:29.462] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-18 21:01:29.499] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.755 seconds (JVM running for 504.344)
+[2020-07-18 21:01:29.501] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged

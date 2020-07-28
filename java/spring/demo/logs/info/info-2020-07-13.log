@@ -1,0 +1,352 @@
+[2020-07-13 10:05:48.963] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:05:48.966] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:05:48.996] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-13 10:05:48.997] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-13 10:05:49.703] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:05:49.709] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:05:49.709] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:05:49.709] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:05:49.767] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:05:49.768] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 770 ms
+[2020-07-13 10:05:49.914] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:05:50.057] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:05:50.069] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:05:50.088] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:05:50.096] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 1.683 seconds (JVM running for 2.336)
+[2020-07-13 10:06:27.661] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-13 10:06:27.661] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-13 10:06:27.664] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 2 ms
+[2020-07-13 10:12:49.593] INFO [http-nio-8080-exec-7] DemoController.java:30 - testJson: body: User(name=233, password=11111, email=null)
+[2020-07-13 10:24:24.970] INFO [Thread-121] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:24:25.027] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:24:25.027] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:24:25.220] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:24:25.220] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:24:25.221] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:24:25.221] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:24:25.228] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:24:25.228] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 199 ms
+[2020-07-13 10:24:25.259] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:24:25.288] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:24:25.293] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:24:25.295] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:24:25.298] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.299 seconds (JVM running for 1117.537)
+[2020-07-13 10:24:25.299] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:25:28.055] INFO [Thread-124] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:25:28.118] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:25:28.118] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:25:28.305] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:25:28.306] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:25:28.306] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:25:28.306] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:25:28.315] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:25:28.315] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 195 ms
+[2020-07-13 10:25:28.346] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:25:28.368] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:25:28.372] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:25:28.378] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:25:28.380] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.292 seconds (JVM running for 1180.62)
+[2020-07-13 10:25:28.381] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:26:17.086] INFO [Thread-244] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:26:17.144] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:26:17.144] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:26:17.305] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:26:17.305] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:26:17.306] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:26:17.306] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:26:17.314] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:26:17.315] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 169 ms
+[2020-07-13 10:26:17.343] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:26:17.365] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:26:17.368] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:26:17.371] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:26:17.373] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.255 seconds (JVM running for 1229.612)
+[2020-07-13 10:26:17.374] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:27:10.110] INFO [Thread-364] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:27:10.168] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:27:10.169] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:27:10.348] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:27:10.349] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:27:10.349] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:27:10.349] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:27:10.359] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:27:10.359] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 188 ms
+[2020-07-13 10:27:10.394] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:27:10.421] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:27:10.430] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:27:10.433] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:27:10.435] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.298 seconds (JVM running for 1282.675)
+[2020-07-13 10:27:10.436] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:31:30.603] INFO [Thread-484] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:31:30.660] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:31:30.661] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:31:30.830] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:31:30.830] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:31:30.831] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:31:30.831] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:31:30.843] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:31:30.843] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 181 ms
+[2020-07-13 10:31:30.876] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:31:30.904] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:31:30.909] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:31:30.912] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:31:30.915] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.283 seconds (JVM running for 1543.155)
+[2020-07-13 10:31:30.916] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:31:57.327] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-13 10:31:57.328] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-13 10:31:57.330] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 2 ms
+[2020-07-13 10:31:57.338] INFO [http-nio-8080-exec-1] DemoController.java:30 - testJson: body: User(name=233, password=11111, email=null)
+[2020-07-13 10:32:12.933] INFO [http-nio-8080-exec-2] DemoController.java:30 - testJson: body: User(name=233, password=11111111, email=null)
+[2020-07-13 10:44:41.140] INFO [Thread-604] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:44:41.204] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:44:41.204] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:44:41.409] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:44:41.409] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:44:41.410] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:44:41.410] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:44:41.420] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:44:41.420] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 214 ms
+[2020-07-13 10:44:41.451] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:44:41.481] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:44:41.485] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:44:41.487] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:44:41.489] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.315 seconds (JVM running for 2333.729)
+[2020-07-13 10:44:41.490] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:45:51.244] INFO [Thread-724] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:45:51.300] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:45:51.300] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:45:51.465] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:45:51.466] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:45:51.466] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:45:51.466] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:45:51.475] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:45:51.475] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 173 ms
+[2020-07-13 10:45:51.505] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:45:51.526] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:45:51.531] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:45:51.537] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:45:51.539] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.265 seconds (JVM running for 2403.778)
+[2020-07-13 10:45:51.540] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:46:34.270] INFO [Thread-844] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:46:34.329] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:46:34.330] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:46:34.499] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:46:34.500] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:46:34.500] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:46:34.500] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:46:34.509] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:46:34.509] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 177 ms
+[2020-07-13 10:46:34.539] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:46:34.562] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:46:34.566] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:46:34.568] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:46:34.571] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.266 seconds (JVM running for 2446.81)
+[2020-07-13 10:46:34.572] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 10:46:50.191] INFO [Thread-964] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:46:50.245] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:46:50.246] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:48:45.091] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-13 10:48:45.092] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-13 10:48:45.103] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 32724 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 10:48:45.104] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 10:48:45.295] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 10:48:45.296] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:48:45.296] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 10:48:45.296] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 10:48:45.308] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 10:48:45.308] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 198 ms
+[2020-07-13 10:48:45.343] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 10:48:45.374] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 10:48:45.380] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 10:48:45.383] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 10:48:45.386] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.304 seconds (JVM running for 2577.626)
+[2020-07-13 10:48:45.387] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 11:11:19.165] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 11:11:19.167] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 11:11:19.196] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-13 11:11:19.197] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-13 11:11:19.837] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 11:11:19.845] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 11:11:19.846] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 11:11:19.846] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 11:11:19.893] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 11:11:19.893] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 696 ms
+[2020-07-13 11:11:20.026] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 11:11:20.168] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 11:11:20.187] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 11:11:20.203] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 11:11:20.210] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 1.531 seconds (JVM running for 2.106)
+[2020-07-13 11:11:34.947] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-13 11:11:34.948] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-13 11:11:34.951] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 3 ms
+[2020-07-13 11:14:42.894] INFO [http-nio-8080-exec-3] Test.java:38 - session org.apache.tomcat.websocket.WsSession@18dd348 websocket连接
+[2020-07-13 11:14:42.899] INFO [http-nio-8080-exec-3] Test.java:58 - 收到信息:Hello WebSockets!
+[2020-07-13 11:14:42.899] INFO [http-nio-8080-exec-3] Test.java:82 - websocket群发消息，消息：hello
+[2020-07-13 11:14:42.900] INFO [http-nio-8080-exec-3] Test.java:48 - sessionorg.apache.tomcat.websocket.WsSession@18dd348;   author:authentication websocket连接关闭
+[2020-07-13 12:14:15.040] INFO [Thread-125] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:14:15.118] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:14:15.118] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:14:15.365] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:14:15.366] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:14:15.366] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:14:15.366] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:14:15.376] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:14:15.376] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 256 ms
+[2020-07-13 12:14:15.412] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:14:15.447] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:14:15.455] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:14:15.458] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:14:15.460] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.385 seconds (JVM running for 3777.392)
+[2020-07-13 12:14:15.462] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:15:00.286] INFO [Thread-129] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:15:00.367] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:15:00.368] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:15:00.625] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:15:00.626] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:15:00.626] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:15:00.626] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:15:00.642] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:15:00.642] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 270 ms
+[2020-07-13 12:15:00.688] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:15:00.718] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:15:00.729] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:15:00.732] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:15:00.735] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.405 seconds (JVM running for 3822.667)
+[2020-07-13 12:15:00.736] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:20:13.114] INFO [Thread-253] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:20:13.172] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:20:13.173] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:20:13.377] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:20:13.378] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:20:13.378] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:20:13.378] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:20:13.389] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:20:13.389] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 214 ms
+[2020-07-13 12:20:13.427] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:20:13.459] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:20:13.464] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:20:13.466] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:20:13.470] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.326 seconds (JVM running for 4135.402)
+[2020-07-13 12:20:13.470] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:23:12.589] INFO [Thread-377] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:23:12.656] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:23:12.657] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:23:12.893] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:23:12.894] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:23:12.894] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:23:12.894] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:23:12.905] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:23:12.905] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 246 ms
+[2020-07-13 12:23:12.946] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:23:12.985] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:23:12.992] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:23:12.995] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:23:13.002] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.377 seconds (JVM running for 4314.934)
+[2020-07-13 12:23:13.003] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:23:43.079] INFO [Thread-501] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:23:43.150] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:23:43.150] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:23:43.386] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:23:43.386] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:23:43.387] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:23:43.387] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:23:43.400] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:23:43.401] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 249 ms
+[2020-07-13 12:23:43.437] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:23:43.462] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:23:43.468] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:23:43.477] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:23:43.480] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.363 seconds (JVM running for 4345.411)
+[2020-07-13 12:23:43.480] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:32:12.224] INFO [Thread-625] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:32:12.284] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:32:12.284] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:34:26.031] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:34:26.031] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:34:26.232] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:34:26.232] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:34:26.232] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:34:26.233] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:34:26.242] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:34:26.242] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 207 ms
+[2020-07-13 12:34:26.280] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:34:26.305] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:34:26.315] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:34:26.317] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:34:26.319] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.317 seconds (JVM running for 4988.251)
+[2020-07-13 12:34:26.320] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:36:18.191] INFO [Thread-749] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:36:18.252] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:36:18.253] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:36:18.451] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:36:18.452] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:36:18.456] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:36:18.456] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:36:18.467] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:36:18.467] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 212 ms
+[2020-07-13 12:36:18.526] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:36:18.576] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:36:18.583] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:36:18.586] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:36:18.589] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.366 seconds (JVM running for 5100.521)
+[2020-07-13 12:36:18.590] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:36:27.647] INFO [Thread-875] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:36:27.714] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:36:27.714] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:36:27.891] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:36:27.891] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:36:27.892] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:36:27.892] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:36:27.900] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:36:27.900] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 184 ms
+[2020-07-13 12:36:27.928] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:36:27.947] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:36:27.951] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:36:27.957] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:36:27.959] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.274 seconds (JVM running for 5109.89)
+[2020-07-13 12:36:27.959] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:36:40.579] INFO [Thread-999] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:36:40.635] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:36:40.635] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:36:40.808] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:36:40.809] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:36:40.809] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:36:40.809] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:36:40.822] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:36:40.822] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 185 ms
+[2020-07-13 12:36:40.850] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:36:40.868] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:36:40.873] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:36:40.875] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:36:40.877] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.265 seconds (JVM running for 5122.808)
+[2020-07-13 12:36:40.878] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 12:42:46.945] INFO [Thread-1123] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:42:47.009] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 12:42:47.009] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 12:42:47.199] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 12:42:47.200] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:42:47.200] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 12:42:47.200] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 12:42:47.210] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 12:42:47.210] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 199 ms
+[2020-07-13 12:42:47.245] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 12:42:47.275] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 12:42:47.280] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 12:42:47.283] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 12:42:47.286] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.308 seconds (JVM running for 5489.218)
+[2020-07-13 12:42:47.287] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-13 13:10:23.930] INFO [Thread-1247] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-13 13:10:23.986] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 1300 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-13 13:10:23.986] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-13 13:10:24.179] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-13 13:10:24.180] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-13 13:10:24.180] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-13 13:10:24.180] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-13 13:10:24.189] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-13 13:10:24.189] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 201 ms
+[2020-07-13 13:10:24.226] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-13 13:10:24.256] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-13 13:10:24.261] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-13 13:10:24.264] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-13 13:10:24.266] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 0.306 seconds (JVM running for 7146.216)
+[2020-07-13 13:10:24.267] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
