@@ -1,10 +1,13 @@
 package com.angel.demo.Controller;
 
-import com.angel.demo.Entity.UserJpa;
-import com.angel.demo.dao.UserJpaRepository;
+import com.angel.demo.Entity.Table.UserTable;
+import com.angel.demo.Service.UserService;
 import com.angel.demo.util.Http.HttpResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
 
 /**
  * @Author: Angel_zou
@@ -17,14 +20,16 @@ import org.springframework.web.bind.annotation.*;
 public class UserJpaController {
 
     @Autowired
-    private UserJpaRepository user_jpa_repository;
+    @Qualifier("userServiceImpl")
+    private UserService user_service;
 
-    @PostMapping(path = "add")
-    public Object addUser(@RequestBody UserJpa user)
-    {
-        UserJpa temp = user_jpa_repository.findByName(user.getName());
+
+    @PostMapping(value = "add")
+    public Object addUser(@RequestBody UserTable user) throws IOException {
+        UserTable temp = user_service.findByName(user.getName());
         if(temp == null){
-            user_jpa_repository.save(user);
+            user.setPassword(user_service.encryptPassword(user.getPassword()));
+            user_service.save(user);
             return HttpResult.ok(null);
         }else {
             return HttpResult.error(400,"已经存在此用户");
@@ -33,9 +38,9 @@ public class UserJpaController {
 
     }
 
-    @DeleteMapping(path = "delete")
+    @DeleteMapping(value = "delete")
     public void deleteUser(Long id) {
-        user_jpa_repository.deleteById(id);
+        user_service.deleteById(id);
     }
 
 }

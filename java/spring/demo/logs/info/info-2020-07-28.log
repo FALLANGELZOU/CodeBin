@@ -1,0 +1,926 @@
+[2020-07-28 17:53:17.542] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 6964 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 17:53:17.548] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 17:53:17.660] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 17:53:17.660] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 17:53:20.582] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 17:53:20.827] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 223ms. Found 1 JPA repository interfaces.
+[2020-07-28 17:53:22.315] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 17:53:22.355] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 17:53:22.356] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 17:53:22.357] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 17:53:22.646] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 17:53:22.647] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 4986 ms
+[2020-07-28 17:53:22.830] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 17:53:23.905] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 17:53:24.135] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 17:53:24.332] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 17:53:24.625] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 17:53:25.096] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 17:53:25.297] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 17:53:25.604] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 17:53:25.665] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 17:53:26.032] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 17:53:26.083] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 17:53:26.085] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 17:53:26.145] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 17:53:26.219] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 17:53:26.619] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 17:53:27.514] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 17:53:27.532] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 17:53:28.222] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 17:53:28.236] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 12.316 seconds (JVM running for 15.554)
+[2020-07-28 17:58:43.675] INFO [Thread-190] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 17:58:43.679] INFO [Thread-190] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 17:58:43.692] INFO [Thread-190] DruidDataSource.java:1825 - {dataSource-1} closed
+[2020-07-28 17:58:43.914] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 6964 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 17:58:43.915] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 17:58:44.760] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 17:58:44.780] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 19ms. Found 1 JPA repository interfaces.
+[2020-07-28 17:58:45.126] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 17:58:45.127] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 17:58:45.128] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 17:58:45.128] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 17:58:45.157] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 17:58:45.158] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1237 ms
+[2020-07-28 17:58:45.213] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 17:58:45.385] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-2} inited
+[2020-07-28 17:58:45.455] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 17:58:45.498] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 17:58:45.509] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 17:58:45.609] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 17:58:45.610] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 17:58:45.668] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 17:58:45.825] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 17:58:46.077] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 17:58:46.083] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 17:58:46.084] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 17:58:46.086] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 17:58:46.093] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 17:58:46.161] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 17:58:46.233] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 17:58:46.252] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.441 seconds (JVM running for 333.569)
+[2020-07-28 17:58:46.255] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 18:00:02.371] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:00:02.371] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:00:02.384] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 13 ms
+[2020-07-28 18:04:41.216] INFO [http-nio-8080-exec-1] DemoController.java:30 - testJson: body: User(name=233, password=11111111, email=null)
+[2020-07-28 18:06:05.256] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 20208 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:06:05.262] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:06:05.342] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:06:05.343] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:06:07.109] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:06:07.227] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 103ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:06:08.332] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:06:08.350] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:06:08.351] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:06:08.351] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:06:08.609] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:06:08.610] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3266 ms
+[2020-07-28 18:06:08.784] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:06:09.323] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:06:09.437] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:06:09.506] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:06:09.609] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:06:09.868] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:06:10.120] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:06:10.153] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:06:10.521] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:06:10.831] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:06:10.870] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:06:10.872] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:06:10.904] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:06:10.966] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:06:11.275] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:06:11.406] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:06:11.420] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:06:11.863] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:06:11.877] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.606 seconds (JVM running for 9.155)
+[2020-07-28 18:06:24.710] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:06:24.711] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:06:24.721] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 10 ms
+[2020-07-28 18:07:33.604] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 13840 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:07:33.609] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:07:33.692] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:07:33.693] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:07:35.479] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:07:35.599] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 104ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:07:36.689] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:07:36.703] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:07:36.704] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:07:36.705] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:07:36.963] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:07:36.963] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3269 ms
+[2020-07-28 18:07:37.131] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:07:37.672] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:07:37.788] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:07:37.857] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:07:37.960] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:07:38.202] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:07:38.435] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:07:38.478] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:07:38.846] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:07:39.151] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:07:39.189] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:07:39.191] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:07:39.235] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:07:39.289] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:07:39.611] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:07:39.742] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:07:39.757] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:07:40.191] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:07:40.204] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.565 seconds (JVM running for 9.124)
+[2020-07-28 18:10:31.608] INFO [http-nio-8080-exec-2] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:10:31.608] INFO [http-nio-8080-exec-2] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:10:31.624] INFO [http-nio-8080-exec-2] FrameworkServlet.java:547 - Completed initialization in 15 ms
+[2020-07-28 18:12:25.318] INFO [Thread-190] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:12:25.321] INFO [Thread-190] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:12:25.331] INFO [Thread-190] DruidDataSource.java:1825 - {dataSource-1} closed
+[2020-07-28 18:12:25.555] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 13840 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:12:25.557] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:12:26.409] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:12:26.432] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 22ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:12:26.759] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:12:26.760] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:12:26.761] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:12:26.761] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:12:26.799] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:12:26.800] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1233 ms
+[2020-07-28 18:12:26.850] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:12:27.025] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-2} inited
+[2020-07-28 18:12:27.083] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:12:27.104] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:12:27.115] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:12:27.115] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:12:27.181] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:12:27.182] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:12:27.186] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:12:27.188] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-2} closed
+[2020-07-28 18:12:27.189] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 18:12:27.202] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 18:12:50.209] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 14484 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:12:50.218] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:12:50.292] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:12:50.293] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:12:52.009] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:12:52.127] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 103ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:12:53.304] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:12:53.319] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:12:53.320] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:12:53.320] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:12:53.508] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:12:53.508] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3215 ms
+[2020-07-28 18:12:53.671] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:12:54.217] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:12:54.337] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:12:54.414] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:12:54.523] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:12:54.762] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:12:55.082] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:12:55.131] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:12:55.422] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:12:55.755] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:12:55.794] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:12:55.796] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:12:55.831] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:12:55.896] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:12:56.218] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:12:56.318] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:12:56.333] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:12:56.769] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:12:56.782] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.623 seconds (JVM running for 9.225)
+[2020-07-28 18:13:16.426] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:13:16.427] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:13:16.438] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 11 ms
+[2020-07-28 18:29:37.466] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 11896 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:29:37.471] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:29:37.558] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:29:37.559] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:29:39.330] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:29:39.451] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 104ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:29:40.571] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:29:40.585] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:29:40.587] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:29:40.587] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:29:40.780] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:29:40.781] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3222 ms
+[2020-07-28 18:29:40.937] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:29:41.524] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:29:41.636] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:29:41.702] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:29:41.807] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:29:42.045] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:29:42.269] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:29:42.302] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:29:42.576] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:29:42.986] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:29:43.025] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:29:43.027] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:29:43.063] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:29:43.126] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:29:43.440] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:29:43.566] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:29:43.580] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:29:44.018] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:29:44.032] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.568 seconds (JVM running for 9.259)
+[2020-07-28 18:30:10.159] INFO [http-nio-8080-exec-2] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:30:10.159] INFO [http-nio-8080-exec-2] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:30:10.170] INFO [http-nio-8080-exec-2] FrameworkServlet.java:547 - Completed initialization in 11 ms
+[2020-07-28 18:30:10.658] INFO [http-nio-8080-exec-2] LoginController.java:40 - ----------
+[2020-07-28 18:30:10.659] INFO [http-nio-8080-exec-2] LoginController.java:41 - 123456
+[2020-07-28 18:30:10.659] INFO [http-nio-8080-exec-2] LoginController.java:42 - -----------
+[2020-07-28 18:31:40.639] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 23684 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:31:40.644] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:31:40.730] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:31:40.730] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:31:42.508] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:31:42.625] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 101ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:31:43.768] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:31:43.783] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:31:43.784] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:31:43.785] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:31:44.042] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:31:44.042] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3312 ms
+[2020-07-28 18:31:44.206] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:31:44.736] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:31:44.851] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:31:44.920] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:31:45.019] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:31:45.262] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:31:45.495] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:31:45.543] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:31:45.928] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:31:46.235] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:31:46.274] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:31:46.276] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:31:46.309] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:31:46.374] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:31:46.706] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:31:46.806] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:31:46.820] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:31:47.255] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:31:47.268] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.578 seconds (JVM running for 9.116)
+[2020-07-28 18:31:55.195] INFO [http-nio-8080-exec-2] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:31:55.196] INFO [http-nio-8080-exec-2] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:31:55.206] INFO [http-nio-8080-exec-2] FrameworkServlet.java:547 - Completed initialization in 10 ms
+[2020-07-28 18:31:55.672] INFO [http-nio-8080-exec-2] LoginController.java:40 - -----------
+[2020-07-28 18:31:55.673] INFO [http-nio-8080-exec-2] LoginController.java:41 - 123456
+[2020-07-28 18:31:55.673] INFO [http-nio-8080-exec-2] LoginController.java:42 - 123456
+[2020-07-28 18:31:55.674] INFO [http-nio-8080-exec-2] LoginController.java:43 - -----------
+[2020-07-28 18:32:50.954] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 3508 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:32:50.959] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:32:51.039] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:32:51.040] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:32:52.803] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:32:52.926] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 107ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:32:54.023] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:32:54.037] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:32:54.038] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:32:54.039] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:32:54.233] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:32:54.233] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3193 ms
+[2020-07-28 18:32:54.385] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:32:55.006] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:32:55.141] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:32:55.201] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:32:55.312] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:32:55.558] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:32:55.802] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:32:55.830] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:32:56.102] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:32:56.511] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:32:56.549] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:32:56.551] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:32:56.584] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:32:56.649] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:32:56.961] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:32:57.093] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:32:57.106] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:32:57.534] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:32:57.547] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.584 seconds (JVM running for 9.083)
+[2020-07-28 18:33:02.988] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:33:02.989] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:33:03.004] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 15 ms
+[2020-07-28 18:33:03.543] INFO [http-nio-8080-exec-1] LoginController.java:40 - -----------
+[2020-07-28 18:33:03.544] INFO [http-nio-8080-exec-1] LoginController.java:41 - 123456
+[2020-07-28 18:33:03.544] INFO [http-nio-8080-exec-1] LoginController.java:42 - 123456
+[2020-07-28 18:33:03.545] INFO [http-nio-8080-exec-1] LoginController.java:43 - -----------
+[2020-07-28 18:33:38.717] INFO [Thread-190] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:33:38.720] INFO [Thread-190] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:33:38.729] INFO [Thread-190] DruidDataSource.java:1825 - {dataSource-1} closed
+[2020-07-28 18:33:38.949] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 3508 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:33:38.950] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:33:39.765] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:33:39.797] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 31ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:33:40.089] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:33:40.090] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:33:40.091] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:33:40.092] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:33:40.121] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:33:40.121] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1166 ms
+[2020-07-28 18:33:40.170] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:33:40.316] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-2} inited
+[2020-07-28 18:33:40.365] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:33:40.381] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:33:40.391] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:33:40.391] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:33:40.450] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:33:40.451] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:33:40.454] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:33:40.456] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-2} closed
+[2020-07-28 18:33:40.457] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 18:33:40.468] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 18:33:57.284] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 3508 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:33:57.285] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:33:58.008] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:33:58.026] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 17ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:33:58.329] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:33:58.331] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:33:58.332] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:33:58.333] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:33:58.363] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:33:58.364] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1073 ms
+[2020-07-28 18:33:58.425] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:33:58.570] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-3} inited
+[2020-07-28 18:33:58.629] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:33:58.639] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:33:58.650] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:33:58.705] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:33:58.706] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:33:58.799] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:33:58.950] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:33:59.184] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:33:59.189] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:33:59.191] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:33:59.192] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:33:59.200] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:33:59.280] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:33:59.371] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:33:59.380] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.167 seconds (JVM running for 70.916)
+[2020-07-28 18:33:59.384] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 18:34:08.943] INFO [http-nio-8080-exec-2] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:34:08.944] INFO [http-nio-8080-exec-2] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:34:08.949] INFO [http-nio-8080-exec-2] FrameworkServlet.java:547 - Completed initialization in 5 ms
+[2020-07-28 18:34:44.140] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 18:34:44.145] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 18:34:44.233] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 18:34:44.234] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 18:34:45.958] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 18:34:46.080] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 106ms. Found 1 JPA repository interfaces.
+[2020-07-28 18:34:47.264] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 18:34:47.281] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:34:47.282] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 18:34:47.282] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 18:34:47.469] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 18:34:47.469] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3235 ms
+[2020-07-28 18:34:47.621] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 18:34:48.155] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 18:34:48.269] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 18:34:48.341] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 18:34:48.450] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 18:34:48.706] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 18:34:49.033] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 18:34:49.118] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 18:34:49.397] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 18:34:49.721] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 18:34:49.759] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 18:34:49.760] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 18:34:49.793] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 18:34:49.856] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 18:34:50.172] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 18:34:50.278] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 18:34:50.291] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 18:34:50.736] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 18:34:50.749] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 7.581 seconds (JVM running for 9.105)
+[2020-07-28 18:35:13.617] INFO [http-nio-8080-exec-2] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 18:35:13.618] INFO [http-nio-8080-exec-2] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 18:35:13.629] INFO [http-nio-8080-exec-2] FrameworkServlet.java:547 - Completed initialization in 11 ms
+[2020-07-28 21:18:04.284] INFO [Thread-190] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 21:18:04.298] INFO [Thread-190] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 21:18:04.362] INFO [Thread-190] DruidDataSource.java:1825 - {dataSource-1} closed
+[2020-07-28 21:18:04.654] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 21:18:04.655] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 21:18:05.320] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 21:18:05.323] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+[2020-07-28 21:18:05.667] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 21:18:05.668] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 21:18:05.669] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 21:18:05.670] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 21:18:05.728] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 21:18:05.729] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1067 ms
+[2020-07-28 21:18:05.767] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 21:18:06.027] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-2} inited
+[2020-07-28 21:18:06.084] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 21:18:06.092] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 21:18:06.103] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 21:18:06.178] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 21:18:06.180] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 21:18:06.297] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 21:18:06.411] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 21:18:06.417] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 21:18:06.420] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 21:18:06.420] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 21:18:06.426] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 1.925 seconds (JVM running for 9808.009)
+[2020-07-28 21:18:06.430] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 21:18:11.375] INFO [Thread-194] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 21:18:11.376] INFO [Thread-194] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 21:18:11.381] INFO [Thread-194] DruidDataSource.java:1825 - {dataSource-2} closed
+[2020-07-28 21:18:11.629] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 21:18:11.630] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 21:18:12.808] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 21:18:12.834] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+[2020-07-28 21:18:13.192] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 21:18:13.193] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 21:18:13.194] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 21:18:13.194] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 21:18:13.227] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 21:18:13.228] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1592 ms
+[2020-07-28 21:18:13.300] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 21:18:13.460] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-3} inited
+[2020-07-28 21:18:13.513] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 21:18:13.526] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 21:18:13.539] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 21:18:13.674] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 21:18:13.675] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 21:18:13.749] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 21:18:13.995] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 21:18:14.311] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 21:18:14.317] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 21:18:14.318] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 21:18:14.319] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 21:18:14.327] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 21:18:14.420] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 21:18:14.496] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 21:18:14.504] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.983 seconds (JVM running for 9816.087)
+[2020-07-28 21:18:14.517] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+   Knife4jAutoConfiguration#corsFilter:
+      Did not match:
+         - @ConditionalOnProperty (knife4j.cors) did not find property 'knife4j.cors' (OnPropertyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2020-07-28 23:00:55.179] INFO [Thread-384] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:00:55.182] INFO [Thread-384] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:00:55.187] INFO [Thread-384] DruidDataSource.java:1825 - {dataSource-3} closed
+[2020-07-28 23:00:55.452] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:00:55.454] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:00:55.781] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:00:58.474] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:00:58.474] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:00:59.454] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:00:59.481] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 25ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:00:59.933] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:00:59.934] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:00:59.935] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:00:59.936] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:00:59.985] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:00:59.986] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1507 ms
+[2020-07-28 23:01:00.066] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:01:00.303] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-4} inited
+[2020-07-28 23:01:00.369] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:01:00.381] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:01:00.393] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:01:00.395] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:01:00.477] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:01:00.478] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:01:00.481] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:01:00.484] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-4} closed
+[2020-07-28 23:01:00.585] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 23:01:00.599] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:03:26.655] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:03:26.656] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:03:27.454] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:03:27.475] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 19ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:03:27.828] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:03:27.829] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:03:27.830] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:03:27.830] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:03:27.859] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:03:27.860] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1198 ms
+[2020-07-28 23:03:27.931] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:03:28.098] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-5} inited
+[2020-07-28 23:03:28.158] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:03:28.168] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:03:28.177] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:03:28.180] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:03:28.238] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:03:28.239] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:03:28.241] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:03:28.244] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-5} closed
+[2020-07-28 23:03:28.245] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 23:03:28.254] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:03:29.771] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:03:29.772] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:03:30.642] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:03:30.661] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 18ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:03:30.947] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:03:30.948] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:03:30.949] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:03:30.949] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:03:30.988] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:03:30.988] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1212 ms
+[2020-07-28 23:03:31.039] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:03:31.177] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-6} inited
+[2020-07-28 23:03:31.238] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:03:31.248] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:03:31.258] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:03:31.312] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:03:31.313] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:03:31.389] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:03:31.557] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:03:31.834] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:03:31.840] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:03:31.841] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:03:31.843] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:03:31.851] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:03:31.956] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:03:32.057] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:03:32.064] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.38 seconds (JVM running for 16133.648)
+[2020-07-28 23:03:32.068] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 23:05:14.485] INFO [Thread-574] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:05:14.487] INFO [Thread-574] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:05:14.493] INFO [Thread-574] DruidDataSource.java:1825 - {dataSource-6} closed
+[2020-07-28 23:05:14.716] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:05:14.717] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:05:15.511] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:05:15.531] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 19ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:05:15.866] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:05:15.867] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:05:15.868] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:05:15.868] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:05:15.909] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:05:15.909] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1185 ms
+[2020-07-28 23:05:15.956] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:05:16.114] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-7} inited
+[2020-07-28 23:05:16.181] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:05:16.214] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:05:16.224] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:05:16.227] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:05:16.290] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:05:16.291] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:05:16.305] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:05:16.308] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-7} closed
+[2020-07-28 23:05:16.309] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 23:05:16.317] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:05:19.978] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 18904 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:05:19.979] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:05:20.681] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:05:20.701] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 19ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:05:20.994] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:05:20.995] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:05:20.996] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:05:20.997] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:05:21.029] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:05:21.030] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1046 ms
+[2020-07-28 23:05:21.082] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:05:21.223] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-8} inited
+[2020-07-28 23:05:21.271] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:05:21.281] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:05:21.290] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:05:21.353] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:05:21.354] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:05:21.447] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:05:21.592] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:05:21.832] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:05:21.837] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:05:21.838] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:05:21.839] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:05:21.846] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:05:21.918] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:05:21.984] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:05:21.991] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.09 seconds (JVM running for 16243.574)
+[2020-07-28 23:05:21.994] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 23:05:46.576] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:05:46.583] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:05:46.700] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-07-28 23:05:46.700] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-07-28 23:05:48.926] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:05:49.044] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 103ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:05:50.496] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:05:50.512] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:05:50.513] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:05:50.514] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:05:50.833] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:05:50.833] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 4132 ms
+[2020-07-28 23:05:51.160] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:05:52.092] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-07-28 23:05:52.219] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:05:52.312] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:05:52.592] INFO [task-1] Version.java:44 - HHH000412: Hibernate ORM core version 5.4.17.Final
+[2020-07-28 23:05:53.044] INFO [task-1] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-07-28 23:05:53.111] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:05:53.340] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:05:53.524] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:05:53.926] INFO [restartedMain] UserDetailsServiceAutoConfiguration.java:86 - 
+
+Using generated security password: f83a8456-d69b-4162-8333-408f77a2bb70
+
+[2020-07-28 23:05:54.170] INFO [restartedMain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@dee1a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@c23b5a, org.springframework.security.web.header.HeaderWriterFilter@dc980e, org.springframework.security.web.csrf.CsrfFilter@2ddab7, org.springframework.security.web.authentication.logout.LogoutFilter@13276c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10236b0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1e89b1f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@f41b7d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a71e7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18b9487, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@201574, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50f50b, org.springframework.security.web.session.SessionManagementFilter@6eb9c, org.springframework.security.web.access.ExceptionTranslationFilter@14754c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dabe59]
+[2020-07-28 23:05:54.298] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:05:54.361] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:05:54.363] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:05:54.421] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:05:54.506] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:05:54.889] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:05:55.151] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:05:55.177] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:05:55.727] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:05:55.740] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 10.185 seconds (JVM running for 12.144)
+[2020-07-28 23:06:32.462] INFO [Thread-210] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:06:32.466] INFO [Thread-210] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:06:32.484] INFO [Thread-210] DruidDataSource.java:1825 - {dataSource-1} closed
+[2020-07-28 23:06:32.704] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:06:32.705] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:06:33.609] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:06:33.638] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 28ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:06:33.992] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:06:33.994] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:06:33.994] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:06:33.995] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:06:34.035] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:06:34.035] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1320 ms
+[2020-07-28 23:06:34.092] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:06:34.285] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-2} inited
+[2020-07-28 23:06:34.377] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:06:34.410] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:06:34.422] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:06:34.528] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:06:34.529] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:06:34.595] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:06:34.769] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:06:35.021] INFO [restartedMain] UserDetailsServiceAutoConfiguration.java:86 - 
+
+Using generated security password: 66078568-2fb6-44fe-8f60-52157e895aff
+
+[2020-07-28 23:06:35.057] INFO [restartedMain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11168ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@11eab58, org.springframework.security.web.header.HeaderWriterFilter@19d22bc, org.springframework.security.web.csrf.CsrfFilter@a29788, org.springframework.security.web.authentication.logout.LogoutFilter@17bc156, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@136fc9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c571c6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4419c9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@169a30e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e8a47f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ae81c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ca4f6f, org.springframework.security.web.session.SessionManagementFilter@17c7ba8, org.springframework.security.web.access.ExceptionTranslationFilter@843e6a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9efd5c]
+[2020-07-28 23:06:35.150] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:06:35.156] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:06:35.157] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:06:35.159] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:06:35.167] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:06:35.244] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:06:35.311] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:06:35.318] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 2.71 seconds (JVM running for 51.721)
+[2020-07-28 23:06:35.324] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 23:17:00.854] INFO [http-nio-8080-exec-1] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-07-28 23:17:00.855] INFO [http-nio-8080-exec-1] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2020-07-28 23:17:00.871] INFO [http-nio-8080-exec-1] FrameworkServlet.java:547 - Completed initialization in 16 ms
+[2020-07-28 23:22:02.739] INFO [Thread-214] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:22:02.741] INFO [Thread-214] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:22:02.747] INFO [Thread-214] DruidDataSource.java:1825 - {dataSource-2} closed
+[2020-07-28 23:22:02.980] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:22:02.981] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:22:04.035] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:22:04.071] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 35ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:22:04.310] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1787c3a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:22:04.324] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:22:04.598] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:22:04.600] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:22:04.601] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:22:04.601] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:22:04.642] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:22:04.642] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1653 ms
+[2020-07-28 23:22:04.774] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:22:05.058] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-3} inited
+[2020-07-28 23:22:05.191] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:22:05.217] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:22:05.228] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:22:05.301] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:22:05.302] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:22:05.400] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:22:05.705] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:22:05.815] INFO [restartedMain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c0b7e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@126d47a, org.springframework.security.web.header.HeaderWriterFilter@7f8f33, org.springframework.security.web.csrf.CsrfFilter@189aaf0, org.springframework.security.web.authentication.logout.LogoutFilter@1996bc8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f631b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10432e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@115540a, org.springframework.security.web.session.SessionManagementFilter@1738fa8, org.springframework.security.web.access.ExceptionTranslationFilter@1ffaabf]
+[2020-07-28 23:22:06.212] INFO [restartedMain] UserDetailsServiceAutoConfiguration.java:86 - 
+
+Using generated security password: c7483ac9-890b-424d-88cd-039026235298
+
+[2020-07-28 23:22:06.225] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:22:06.231] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:22:06.232] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:22:06.234] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:22:06.242] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:22:06.333] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:22:06.457] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:22:06.464] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 3.591 seconds (JVM running for 982.868)
+[2020-07-28 23:22:06.474] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:58 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' webSecurityConfig (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2020-07-28 23:47:00.495] INFO [Thread-424] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:47:00.497] INFO [Thread-424] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:47:00.501] INFO [Thread-424] DruidDataSource.java:1825 - {dataSource-3} closed
+[2020-07-28 23:47:00.744] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:47:00.745] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:47:01.660] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:47:01.685] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:47:01.874] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1b5ed63' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:47:01.880] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:47:02.143] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:47:02.144] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:47:02.145] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:47:02.146] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:47:02.180] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:47:02.180] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1428 ms
+[2020-07-28 23:47:02.279] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:47:02.586] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-4} inited
+[2020-07-28 23:47:02.724] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:47:02.761] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:47:02.772] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:47:02.791] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:47:02.868] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:47:02.869] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:47:02.871] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:47:02.875] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-4} closed
+[2020-07-28 23:47:02.876] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 23:47:02.895] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:47:19.764] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:47:19.765] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:47:20.678] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:47:20.707] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 27ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:47:20.890] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@815f1' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:47:20.895] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:47:21.150] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:47:21.152] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:47:21.153] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:47:21.154] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:47:21.189] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:47:21.190] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1421 ms
+[2020-07-28 23:47:21.291] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:47:21.572] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-5} inited
+[2020-07-28 23:47:21.720] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:47:21.744] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:47:21.756] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:47:21.769] INFO [restartedMain] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:47:21.837] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:47:21.838] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:47:21.841] INFO [restartedMain] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:47:21.844] INFO [restartedMain] DruidDataSource.java:1825 - {dataSource-5} closed
+[2020-07-28 23:47:21.846] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-07-28 23:47:21.858] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:47:39.673] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:47:39.674] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:47:40.057] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:47:42.585] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:47:42.586] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:47:43.657] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:47:43.683] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 25ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:47:43.844] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@80aa37' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:47:43.848] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:47:44.088] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:47:44.090] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:47:44.090] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:47:44.090] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:47:44.127] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:47:44.128] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1536 ms
+[2020-07-28 23:47:44.244] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:47:44.547] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-6} inited
+[2020-07-28 23:47:44.707] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:47:44.732] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:47:44.746] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:47:44.846] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:47:44.847] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:47:44.964] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:47:45.354] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:47:45.483] INFO [restartedMain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b1d7f, org.springframework.security.web.context.SecurityContextPersistenceFilter@18edd21, org.springframework.security.web.header.HeaderWriterFilter@1da6b08, org.springframework.security.web.csrf.CsrfFilter@1a98c2c, org.springframework.security.web.authentication.logout.LogoutFilter@16d23ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d256e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@134e1f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@620eeb, org.springframework.security.web.session.SessionManagementFilter@13f223, org.springframework.security.web.access.ExceptionTranslationFilter@82c49d]
+[2020-07-28 23:47:45.902] INFO [restartedMain] UserDetailsServiceAutoConfiguration.java:86 - 
+
+Using generated security password: 77c25637-881c-4ac8-af1d-fbfbf57e00d3
+
+[2020-07-28 23:47:45.916] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:47:45.924] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:47:45.926] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:47:45.927] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:47:45.936] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:47:46.005] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:47:46.147] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:47:46.155] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 3.651 seconds (JVM running for 2522.558)
+[2020-07-28 23:47:46.159] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged
+[2020-07-28 23:48:04.996] INFO [Thread-630] AbstractEntityManagerFactoryBean.java:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:48:04.997] INFO [Thread-630] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:48:05.003] INFO [Thread-630] DruidDataSource.java:1825 - {dataSource-6} closed
+[2020-07-28 23:48:05.269] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:48:05.270] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:48:05.672] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-07-28 23:48:07.215] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 25196 (F:\javaIDEA\workspace\demo\target\classes started by 20666 in F:\javaIDEA\workspace\demo)
+[2020-07-28 23:48:07.216] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-07-28 23:48:08.208] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-07-28 23:48:08.241] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 31ms. Found 1 JPA repository interfaces.
+[2020-07-28 23:48:08.430] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@b1416c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:48:08.434] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-07-28 23:48:08.684] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-07-28 23:48:08.685] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:48:08.685] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-07-28 23:48:08.686] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-07-28 23:48:08.724] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-07-28 23:48:08.724] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 1503 ms
+[2020-07-28 23:48:08.819] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-07-28 23:48:09.089] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-7} inited
+[2020-07-28 23:48:09.230] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-07-28 23:48:09.246] INFO [task-1] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-07-28 23:48:09.257] INFO [task-1] Dialect.java:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2020-07-28 23:48:09.334] INFO [task-1] JtaPlatformInitiator.java:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-07-28 23:48:09.335] INFO [task-1] AbstractEntityManagerFactoryBean.java:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-07-28 23:48:09.501] INFO [task-2] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-07-28 23:48:09.671] INFO [restartedMain] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-07-28 23:48:09.777] INFO [restartedMain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e91ed5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1978028, org.springframework.security.web.header.HeaderWriterFilter@158519a, org.springframework.security.web.csrf.CsrfFilter@15164fc, org.springframework.security.web.authentication.logout.LogoutFilter@fa34c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@706b8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1832918, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a03e59, org.springframework.security.web.session.SessionManagementFilter@1e1772c, org.springframework.security.web.access.ExceptionTranslationFilter@1c2d649]
+[2020-07-28 23:48:10.097] INFO [restartedMain] UserDetailsServiceAutoConfiguration.java:86 - 
+
+Using generated security password: 453aa967-8838-49d4-b65a-584a4926f434
+
+[2020-07-28 23:48:10.110] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-07-28 23:48:10.115] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-07-28 23:48:10.117] INFO [restartedMain] DocumentationPluginsBootstrapper.java:160 - Context refreshed
+[2020-07-28 23:48:10.118] INFO [restartedMain] DocumentationPluginsBootstrapper.java:163 - Found 1 custom documentation plugin(s)
+[2020-07-28 23:48:10.126] INFO [restartedMain] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2020-07-28 23:48:10.213] INFO [restartedMain] DeferredRepositoryInitializationListener.java:49 - Triggering deferred initialization of Spring Data repositories…
+[2020-07-28 23:48:10.316] INFO [restartedMain] DeferredRepositoryInitializationListener.java:53 - Spring Data repositories initialized!
+[2020-07-28 23:48:10.322] INFO [restartedMain] StartupInfoLogger.java:61 - Started DemoApplication in 3.214 seconds (JVM running for 2546.725)
+[2020-07-28 23:48:10.325] INFO [restartedMain] ConditionEvaluationDeltaLoggingListener.java:63 - Condition evaluation unchanged

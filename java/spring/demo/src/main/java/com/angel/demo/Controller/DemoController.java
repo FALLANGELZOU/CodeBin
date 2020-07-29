@@ -21,14 +21,14 @@ public class DemoController {
     }
 
     @Autowired
-    @Qualifier("userServiceImp")
+    @Qualifier("userServiceImpl")
     private UserService userService;
 
     //  json数据
     @PostMapping("/testJson")
     public Object testJson(@RequestBody @Valid User user) throws IOException {
         log.info("testJson: body: " + user.toString());
-        if(user.getName() == null || user.getPassword() == null){
+        if(user.getUsername() == null || user.getPassword() == null){
             return HttpResult.error("名称或密码不能为空");
         }
 

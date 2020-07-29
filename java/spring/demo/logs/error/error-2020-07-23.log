@@ -6,7 +6,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field user in com.angel.demo.Controller.UserJpaControllers required a bean of type 'com.angel.demo.Entity.UserJpa' that could not be found.
+Field user in com.angel.demo.Controller.UserJpaControllers required a bean of type 'com.angel.demo.Entity.Table.UserTable' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -14,10 +14,10 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'com.angel.demo.Entity.UserJpa' in your configuration.
+Consider defining a bean of type 'com.angel.demo.Entity.Table.UserTable' in your configuration.
 
 [2020-07-23 00:41:27.283] ERROR [restartedMain] SpringApplication.java:837 - Application run failed
-java.lang.TypeNotPresentException: Type com.angel.demo.Entity.UserJpa not present
+java.lang.TypeNotPresentException: Type com.angel.demo.Entity.Table.UserTable not present
 	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
 	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
 	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
@@ -64,7 +64,7 @@ java.lang.TypeNotPresentException: Type com.angel.demo.Entity.UserJpa not presen
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.ClassNotFoundException: com.angel.demo.Entity.UserJpa
+Caused by: java.lang.ClassNotFoundException: com.angel.demo.Entity.Table.UserTable
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)

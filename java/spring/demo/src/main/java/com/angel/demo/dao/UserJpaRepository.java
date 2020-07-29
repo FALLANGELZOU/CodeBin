@@ -1,9 +1,11 @@
 package com.angel.demo.dao;
 
-import com.angel.demo.Entity.UserJpa;
+
+import com.angel.demo.Entity.Table.UserTable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
+
+
 
 /**
  * @Author: Angel_zou
@@ -12,7 +14,8 @@ import org.springframework.stereotype.Repository;
  * @Description: user_jpa对应dao层
  */
 @Repository
-public interface  UserJpaRepository extends JpaRepository<UserJpa, Long> {
-    public UserJpa findByName(String name);
+public interface  UserJpaRepository extends JpaRepository<UserTable, Long> {
+    UserTable findByName(String name);
+    //Collection<GrantedAuthority> loadUserAuthorities(String username);
 
 }

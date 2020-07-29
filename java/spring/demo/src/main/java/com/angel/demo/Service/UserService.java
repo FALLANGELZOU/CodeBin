@@ -1,6 +1,9 @@
 package com.angel.demo.Service;
 
-import java.io.IOException;
+import com.angel.demo.Entity.Table.UserTable;
+
+import java.util.List;
+
 
 /**
  * @Author: Angel_zou
@@ -9,5 +12,14 @@ import java.io.IOException;
  * @Description: user接口类
  */
 public interface UserService {
-    String encryptPassword(String password) throws IOException;
+    //  加密
+    String encryptPassword(String password);
+
+    //  封装dao层
+    UserTable findByName(String name);
+    void deleteById(Long id);
+    void save(UserTable user);
+    List<String> findRolesById(Long id);
+
+
 }
