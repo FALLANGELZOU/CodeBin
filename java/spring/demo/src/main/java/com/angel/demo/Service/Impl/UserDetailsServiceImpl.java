@@ -34,6 +34,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
+        System.out.println("调用了loadUserByUsername----------");
         UserTable user = user_service.findByName(name);
         if(user == null){
             throw new UsernameNotFoundException("用户未找到");

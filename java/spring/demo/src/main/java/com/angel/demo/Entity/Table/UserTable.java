@@ -23,7 +23,7 @@ public class UserTable implements Serializable {
     @Column(name = "user_name", nullable = false, length = 32)
     private String name;
 
-    @Column(name = "user_password", nullable = false, length = 32)
+    @Column(name = "user_password", nullable = false)
     private String password;
 
     @Column(name = "user_level", nullable = true)

@@ -59,9 +59,15 @@ public class UserServiceImpl implements UserService {
         user_jpa_repository.deleteById(id);
     }
 
+
+
     @Override
     public void save(UserTable user) {
         user_jpa_repository.save(user);
+        UserRoleTable userRoleTable = new UserRoleTable();
+        userRoleTable.setUserId(user.getId());
+        userRoleTable.setRoleId(new Long(3));
+        user_role_jpa_repository.save(userRoleTable);
     }
 
     @Override
@@ -83,5 +89,10 @@ public class UserServiceImpl implements UserService {
         }
 
         return roleNames;
+    }
+
+    @Override
+    public void deleteUserRoleByUserId(Long id) {
+        user_role_jpa_repository.deleteUserRoleTablesByUserId(id);
     }
 }

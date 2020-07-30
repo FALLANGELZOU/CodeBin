@@ -20,6 +20,7 @@ public interface UserService {
     void deleteById(Long id);
     void save(UserTable user);
     List<String> findRolesById(Long id);
+    void deleteUserRoleByUserId(Long id);
 
 
 }

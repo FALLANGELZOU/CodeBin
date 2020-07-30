@@ -1,5 +1,6 @@
 package com.angel.demo.Security;
 
+import com.angel.demo.Filter.CustomAuthenticationFilter;
 import com.angel.demo.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -31,12 +32,37 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Qualifier("userServiceImpl")
     UserService userService;
 
-    @Qualifier
+    @Autowired
+    @Qualifier("userDetailsServiceImpl")
     UserDetailsService userDetailsService;
 
+    @Autowired
+    MyLogoutSuccessHandler myLogoutSuccessHandler;
+
+    @Autowired
+    MyAuthenticationEntryPoint myAuthenticationEntryPoint;
+
+    @Autowired
+    MyAuthenticationSuccessHandler myAuthenticationSuccessHandler;
+
+    @Autowired
+    MyAuthenticationFailureHandler myAuthenticationFailureHandler;
+
+    //  这里为啥要bean
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
+    }
+
+    //注册自定义的UsernamePasswordAuthenticationFilter
+    @Bean
+    CustomAuthenticationFilter customAuthenticationFilter() throws Exception {
+        CustomAuthenticationFilter filter = new CustomAuthenticationFilter();
+        filter.setAuthenticationSuccessHandler(myAuthenticationSuccessHandler);
+        filter.setAuthenticationFailureHandler(myAuthenticationFailureHandler);
+        //重用WebSecurityConfigurerAdapter配置的AuthenticationManager
+        filter.setAuthenticationManager(authenticationManagerBean());
+        return filter;
     }
 
     /**
@@ -48,6 +74,26 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
+        http
+                .authorizeRequests()
+                .antMatchers("/login", "/login?error") //允许不登陆直接请求的路径
+                .permitAll()
+                .anyRequest().authenticated()  // 其他请求,登录后可以访问
+
+                .and().formLogin() // 配置表单登录
+                //.loginPage("/user/login_page") // 这个表示登录页的地址
+                .loginProcessingUrl("/login")  // 自定义的登录接口，POST 方法
+                .permitAll()
+
+                .and().logout() // 配置登出账号
+                .logoutUrl("/logout") // 登出请求路径
+                .logoutSuccessHandler(myLogoutSuccessHandler) //成功处理器，返回 JSON
+                .permitAll()
+
+                .and().csrf().disable()// 关闭 crsf 防御机制
+                .exceptionHandling().authenticationEntryPoint(myAuthenticationEntryPoint)  // 用户访问没有权限的接口，不使用重定向，直接返回JSON提示。
+        ;
     }
 
     /**
@@ -76,6 +122,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         // 忽略 URI
         web.ignoring()
                 .antMatchers(
+                        "/login",
                         "/checkVerifyCode",
                         "/",
                         "/woo/user/register",
@@ -85,7 +132,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/configuration/security",
                         "/swagger-ui.html",
                         "/webjars/**",
-                        "/doc.html"
+                        "/doc.html",
+                        "/user/add"
                         );
 
     }

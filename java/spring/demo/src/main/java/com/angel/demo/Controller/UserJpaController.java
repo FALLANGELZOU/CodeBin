@@ -26,9 +26,12 @@ public class UserJpaController {
 
     @PostMapping(value = "add")
     public Object addUser(@RequestBody UserTable user) throws IOException {
+        //System.out.println("开始执行");
         UserTable temp = user_service.findByName(user.getName());
+        //System.out.println("查找完成");
         if(temp == null){
             user.setPassword(user_service.encryptPassword(user.getPassword()));
+            //System.out.println("储存");
             user_service.save(user);
             return HttpResult.ok(null);
         }else {
@@ -41,6 +44,7 @@ public class UserJpaController {
     @DeleteMapping(value = "delete")
     public void deleteUser(Long id) {
         user_service.deleteById(id);
+        user_service.deleteUserRoleByUserId(id);
     }
 
 }

@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.util.JSONPObject;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -15,7 +16,9 @@ import java.io.IOException;
 @RestController // Controller内的数据都是以json格式输出
 @Slf4j
 public class DemoController {
+
     @GetMapping("/hello")
+    
     public Object hello(){
         return "hello";
     }
