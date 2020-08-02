@@ -1,4 +1,4 @@
-package com.angel.demo.Entity.Table;
+package com.angel.test.Entity.Table;
 
 import lombok.Data;
 
@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 /**
  * @Author: Angel_zou
- * @Date: Created in 0:47 2020/7/29
+ * @Date: Created in 9:35 2020/8/2
  * @Connection: ahacgn@gmail.com
  * @Description: 角色表
  */
