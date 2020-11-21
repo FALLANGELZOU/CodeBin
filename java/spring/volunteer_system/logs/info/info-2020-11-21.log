@@ -1,0 +1,260 @@
+[2020-11-21 00:00:48.544] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:00:48.549] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 31872 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:00:48.550] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:00:48.598] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:00:48.599] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:00:49.376] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:00:49.381] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:00:49.382] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:00:49.382] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:00:49.433] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:00:49.433] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 834 ms
+[2020-11-21 00:00:49.516] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:00:49.571] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:00:50.401] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:00:50.421] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:01:49.375] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:01:49.391] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 21772 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:01:49.391] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:01:49.438] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:01:49.438] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:01:50.225] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:01:50.230] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:01:50.231] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:01:50.231] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:01:50.281] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:01:50.281] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 842 ms
+[2020-11-21 00:01:50.361] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:01:50.414] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:01:51.083] INFO [restartedMain] RSAKeyProperties.java:41 - JyjhIdKAoD6eRgi2Q/xEYdJ4/1THqURlTzckd46pm1VnfK57DKG1aihbYkl/4orj0BTTKqmqPJoStln6KmGL21BCua46gNPPncxeh53RbSs3mvwLyQFSj0SKx76cEDTwwbYrECLjjNj3NUTQXWf8I88kNtq7xHtu3M0Am97R8i5VQ9JqiDwDC9gyzNilWsi80LpgjdHwVsImi/wQCKGLbJSJHg2bM8rszMwGGx+1adz3NiUvmzulvVIPfZtXEQPf+WWRanaRIDAgkGleMOUigi5xInQ5rNPkScLg/G9/L9dxCD+NXqq/aOSO+5efZSZK0GV9pWRe9YAfyafK44ecLA==
+[2020-11-21 00:01:51.097] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:01:51.105] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:03:44.005] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 19060 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:03:44.003] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:03:44.007] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:03:44.055] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:03:44.055] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:03:44.852] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:03:44.857] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:03:44.858] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:03:44.858] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:03:44.907] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:03:44.908] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 852 ms
+[2020-11-21 00:03:44.984] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:03:45.038] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:03:45.955] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:03:45.963] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:06:05.278] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:06:05.279] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 29672 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:06:05.282] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:06:05.329] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:06:05.329] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:06:06.120] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:06:06.126] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:06:06.127] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:06:06.127] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:06:06.178] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:06:06.178] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 848 ms
+[2020-11-21 00:06:06.263] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:06:06.329] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:06:07.167] INFO [restartedMain] RSAKeyProperties.java:41 - cowgUJUcKlCSQ0dXWOqlKP6tB8fmtnkOjDYDgwSFluORlkQ+zH8QIBXigGfUWNGcf0rXbcf+pX8eIFsj2SPE6rTYkD6Y/kJMtEyQfkkZp+eNBJpi+tYbnIaF+H41I1Mb1u4oVo0NpLYefkX0PpohUpb9/rKVKgXvyeZomRTzkLiWHvB+9LT0DSLK+5MT4usMi94IUXFWbm6GYeaNJYYGzOGWnuQQZ7C8AJFjEv3BzpxYUA0npBWjSGeaU3V3xZog20E3hOtsvX1nsWxIooCOSilvkeesy0QWeENkWU9iwfmpWBBJH+7ACOh/ATHG0BaG1GdmOdyR56NLB4MaHXILYQ==
+[2020-11-21 00:06:07.181] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:06:07.189] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:11:36.153] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:11:36.153] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 7456 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:11:36.156] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:11:36.203] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:11:36.203] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:11:36.979] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:11:36.984] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:11:36.985] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:11:36.985] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:11:37.035] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:11:37.036] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 832 ms
+[2020-11-21 00:11:37.112] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:11:37.166] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:11:38.361] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:11:38.368] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:13:43.581] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:13:43.588] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 20000 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:13:43.589] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:13:43.633] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:13:43.633] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:13:44.428] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:13:44.433] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:13:44.434] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:13:44.434] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:13:44.483] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:13:44.483] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 849 ms
+[2020-11-21 00:13:44.559] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:13:44.612] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:13:45.175] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:13:45.183] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:13:57.143] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 32588 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:13:57.143] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:13:57.146] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:13:57.193] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:13:57.194] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:13:58.012] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:13:58.019] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:13:58.019] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:13:58.019] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:13:58.079] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:13:58.080] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 885 ms
+[2020-11-21 00:13:58.187] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:13:58.266] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:14:20.035] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:14:20.050] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:16:41.663] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:16:41.662] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 12000 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:16:41.665] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:16:41.712] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:16:41.712] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:16:42.459] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:16:42.464] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:16:42.465] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:16:42.465] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:16:42.514] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:16:42.514] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 801 ms
+[2020-11-21 00:16:42.595] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:16:42.647] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:16:43.506] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:16:43.513] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:17:03.252] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 12184 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:17:03.255] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:17:03.256] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:17:03.303] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:17:03.304] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:17:04.099] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:17:04.104] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:17:04.105] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:17:04.105] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:17:04.154] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:17:04.154] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 850 ms
+[2020-11-21 00:17:04.230] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:17:04.283] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:17:04.979] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:17:04.986] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:17:10.341] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:17:10.343] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 4360 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:17:10.345] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:17:10.397] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:17:10.398] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:17:11.278] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:17:11.285] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:17:11.285] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:17:11.285] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:17:11.345] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:17:11.345] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 946 ms
+[2020-11-21 00:17:11.454] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:17:11.533] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:17:24.518] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-21 00:17:24.539] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-21 00:20:45.796] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:20:45.797] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 20164 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:20:45.799] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:20:45.834] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:20:45.834] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:20:46.713] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:20:46.718] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:20:46.719] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:20:46.719] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:20:46.772] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:20:46.772] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 938 ms
+[2020-11-21 00:20:46.855] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:20:46.911] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:20:47.943] INFO [restartedMain] RSAKeyProperties.java:41 - gmjpvx2+dJ9Uv6Az/TX2Z6jxyn3mMoOiywjXE0V+R/3/7p81C42225s/wrASWPrMAbrIrnz75DXD
+ZBwfaJinA8z0+ynLzHaQvFXZuZrZBoAoTtgTYt9oueeS3PH0MfRoQI9R2L7Vvs4KgIG0/l53exl1
+uC/dgIZUEprRIrgPzEd594jJJRdj8W0vHD6LrFe2wJDXAyZMNWrK/Xh+9HC+pSSQnzfouDgaAa2d
+gbOTUq+wt/etGQjq4o58SsrkF5/w8cagpr1gRNaNFhBq8Xy99+bken+ePmP85IoAAsS2zVLjO5ek
+BlEIEvCmQeziyvv9SSaMnN70Isbfjl98s8/mGg==
+[2020-11-21 00:20:47.944] INFO [restartedMain] RSAKeyProperties.java:43 - null
+[2020-11-21 00:20:47.986] INFO [restartedMain] WebSecurityConfig.java:85 - 配置核心类
+[2020-11-21 00:20:48.030] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/index'] with []
+[2020-11-21 00:20:48.030] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/static/**'] with []
+[2020-11-21 00:20:48.030] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/login'] with []
+[2020-11-21 00:20:48.030] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/test'] with []
+[2020-11-21 00:20:48.174] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@207e6cea, org.springframework.security.web.context.SecurityContextPersistenceFilter@216c725d, org.springframework.security.web.header.HeaderWriterFilter@64ef2df3, org.springframework.web.filter.CorsFilter@e738bf1, org.springframework.security.web.authentication.logout.LogoutFilter@2dceea62, com.angel.volunteer_system.volunteer.Security.Jwt.MyJwtLogin@5392d2ab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@357052d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@307cc563, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@53655aea, com.angel.volunteer_system.volunteer.Security.Jwt.JwtAuthenticationFilter@2e822dc1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5566c31e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39fac8c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68a043c6, org.springframework.security.web.session.SessionManagementFilter@34b81cbc, org.springframework.security.web.access.ExceptionTranslationFilter@20d139f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a0d7342]
+[2020-11-21 00:20:48.213] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-21 00:20:48.307] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-11-21 00:20:48.320] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:20:48.333] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-21 00:20:48.342] INFO [restartedMain] StartupInfoLogger.java:61 - Started VolunteerApplication in 2.9 seconds (JVM running for 4.077)
+[2020-11-21 00:27:09.632] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 20560 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:27:09.633] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:27:09.635] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:27:09.676] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:27:09.677] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:27:10.432] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:27:10.437] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:27:10.438] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:27:10.438] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:27:10.488] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:27:10.489] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 811 ms
+[2020-11-21 00:27:10.566] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:27:10.618] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:27:11.201] INFO [restartedMain] RSAKeyProperties.java:41 - mfVwdpC5tO7MyHTBU31PPkvdnO6rUDqYYejTkN/aEr+3QkXlH40q+WRpgXjhJzcVGj32Kv1F+A8u
+6A/keV2xB8WOE0fU1fixjTy7SfPeKnrotHd0TaZoTNpgV48KyFtnbpKLFY3HK42A6yT34Cmk27CH
+9nbhg+Yp77cuitayGrQ=
+[2020-11-21 00:27:11.202] INFO [restartedMain] RSAKeyProperties.java:43 - null
+[2020-11-21 00:27:11.234] INFO [restartedMain] WebSecurityConfig.java:85 - 配置核心类
+[2020-11-21 00:27:11.238] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/index'] with []
+[2020-11-21 00:27:11.238] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/static/**'] with []
+[2020-11-21 00:27:11.238] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/login'] with []
+[2020-11-21 00:27:11.238] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/test'] with []
+[2020-11-21 00:27:11.397] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@737e930, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b43dfb8, org.springframework.security.web.header.HeaderWriterFilter@c999c9c, org.springframework.web.filter.CorsFilter@40c41685, org.springframework.security.web.authentication.logout.LogoutFilter@30ac9d46, com.angel.volunteer_system.volunteer.Security.Jwt.MyJwtLogin@19cb7bb3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f755070, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@53928c81, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ba9ea9c, com.angel.volunteer_system.volunteer.Security.Jwt.JwtAuthenticationFilter@3fdf4cb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c2b62b1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6af57d25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2edad949, org.springframework.security.web.session.SessionManagementFilter@defb323, org.springframework.security.web.access.ExceptionTranslationFilter@721c6a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41a159d0]
+[2020-11-21 00:27:11.428] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-21 00:27:11.501] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-11-21 00:27:11.512] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:27:11.524] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-21 00:27:11.531] INFO [restartedMain] StartupInfoLogger.java:61 - Started VolunteerApplication in 2.318 seconds (JVM running for 3.286)
+[2020-11-21 00:27:34.610] INFO [background-preinit] Version.java:21 - HV000001: Hibernate Validator 6.1.6.Final
+[2020-11-21 00:27:34.617] INFO [restartedMain] StartupInfoLogger.java:55 - Starting VolunteerApplication using Java 1.8.0_261 on DESKTOP-4EEKV8L with PID 8748 (E:\gitRepo\CodeBin\java\spring\volunteer_system\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\volunteer_system)
+[2020-11-21 00:27:34.618] INFO [restartedMain] SpringApplication.java:660 - No active profile set, falling back to default profiles: default
+[2020-11-21 00:27:34.675] INFO [restartedMain] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-21 00:27:34.675] INFO [restartedMain] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-21 00:27:35.495] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-21 00:27:35.501] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:27:35.502] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-21 00:27:35.502] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-21 00:27:35.556] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-21 00:27:35.556] INFO [restartedMain] ServletWebServerApplicationContext.java:289 - Root WebApplicationContext: initialization completed in 880 ms
+[2020-11-21 00:27:35.642] INFO [restartedMain] MyJwtLogin.java:53 - jwt
+[2020-11-21 00:27:35.707] INFO [restartedMain] RSAKeyProperties.java:34 - 生成私钥和公钥
+[2020-11-21 00:27:37.137] INFO [restartedMain] RSAKeyProperties.java:41 - U7XfJFvBnmhiTM4/YdvFz82CPvIA/hbRi/g2yalBU5Z4E65iDt4cWKpryM74M4OetugxaXP1jCfG
+7Y44f8ayxXaLDKS/Ll7ZTMowM02uf1yUpKPE+w3Kgmjm6yqhJSy4AE2NpXYZSpjvvAqgtKgRiTo8
+/DigV5Hyx1zqeZ7EHgB7+ZSESxxWJ/PJV3Q7/BPYwErVtrXz5s17hgZGTIbwtgHOqIpTN9KLfkw6
+ShuXPAdtOmSWTUsWW/vywgX+RiEPM+YsdtrzVWnv6N6YssF19X9wL51zrVd+xvE0JKdqZlhsBxbI
+mvejtOBZ7tVLy9jL2dqIfNCzDF9CmtLhIibfcQ==
+[2020-11-21 00:27:37.140] INFO [restartedMain] RSAKeyProperties.java:43 - null
+[2020-11-21 00:27:37.173] INFO [restartedMain] WebSecurityConfig.java:85 - 配置核心类
+[2020-11-21 00:27:37.178] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/index'] with []
+[2020-11-21 00:27:37.178] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/static/**'] with []
+[2020-11-21 00:27:37.178] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/login'] with []
+[2020-11-21 00:27:37.178] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure Ant [pattern='/test'] with []
+[2020-11-21 00:27:37.368] INFO [restartedMain] DefaultSecurityFilterChain.java:51 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ba4870c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6733ee59, org.springframework.security.web.header.HeaderWriterFilter@3abb4f47, org.springframework.web.filter.CorsFilter@5512f4eb, org.springframework.security.web.authentication.logout.LogoutFilter@5db85e23, com.angel.volunteer_system.volunteer.Security.Jwt.MyJwtLogin@389aff95, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41dce1e5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@bd8eb13, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1a17f8e, com.angel.volunteer_system.volunteer.Security.Jwt.JwtAuthenticationFilter@45c23cfb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e59a496, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b514ea7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27546596, org.springframework.security.web.session.SessionManagementFilter@3050c9ac, org.springframework.security.web.access.ExceptionTranslationFilter@3604f1b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1af39769]
+[2020-11-21 00:27:37.403] INFO [restartedMain] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-21 00:27:37.484] INFO [restartedMain] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+[2020-11-21 00:27:37.498] INFO [restartedMain] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-21 00:27:37.511] INFO [restartedMain] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-21 00:27:37.521] INFO [restartedMain] StartupInfoLogger.java:61 - Started VolunteerApplication in 3.334 seconds (JVM running for 4.344)

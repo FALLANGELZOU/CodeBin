@@ -1,18 +1,16 @@
-package com.angel.demo.Exception;
+package com.angel.volunteer_system.volunteer.Exception;
 
-import com.angel.demo.util.Http.HttpResult;
+import com.angel.volunteer_system.volunteer.util.HttpResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * @Author: Angel_zou
- * @Date: Created in 23:51 2020/7/12
+ * @Date: Created in 15:00 2020/11/17
  * @Connection: ahacgn@gmail.com
  * @Description: 统一异常处理
  */
@@ -32,6 +30,10 @@ public class CommonExceptionHandler {
     public HttpResult commonErrorHandler(HttpServletRequest req, Throwable e) {
         String message = e.getMessage();
         log.error("[" + req.getRequestURI() + "]：" + message);
+//        String pattern = ".* (default message) .*";
+//        Pattern p = Pattern.compile(pattern);
+//        Matcher match = p.matcher(message);
+//        System.out.println(match.group(0));
         return HttpResult.error(message);
 
     }

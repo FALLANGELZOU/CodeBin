@@ -1,0 +1,20 @@
+[2020-11-17 14:28:05.513] INFO [restartedMain] StartupInfoLogger.java:55 - Starting DemoApplication on DESKTOP-4EEKV8L with PID 21060 (E:\gitRepo\CodeBin\java\spring\demo\target\classes started by 20666 in E:\gitRepo\CodeBin\java\spring\demo)
+[2020-11-17 14:28:05.519] INFO [restartedMain] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+[2020-11-17 14:28:05.702] INFO [restartedMain] DeferredLog.java:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-11-17 14:28:05.703] INFO [restartedMain] DeferredLog.java:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-11-17 14:28:08.884] INFO [restartedMain] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-11-17 14:28:09.108] INFO [restartedMain] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 198ms. Found 3 JPA repository interfaces.
+[2020-11-17 14:28:10.054] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5bfc5c7d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-11-17 14:28:10.071] INFO [restartedMain] PostProcessorRegistrationDelegate.java:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-11-17 14:28:11.011] INFO [restartedMain] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+[2020-11-17 14:28:11.051] INFO [restartedMain] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-17 14:28:11.052] INFO [restartedMain] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2020-11-17 14:28:11.053] INFO [restartedMain] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2020-11-17 14:28:11.262] INFO [restartedMain] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2020-11-17 14:28:11.263] INFO [restartedMain] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 5560 ms
+[2020-11-17 14:28:11.510] INFO [restartedMain] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+[2020-11-17 14:28:12.730] INFO [restartedMain] DruidDataSource.java:930 - {dataSource-1} inited
+[2020-11-17 14:28:12.862] INFO [restartedMain] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2020-11-17 14:28:12.913] INFO [restartedMain] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

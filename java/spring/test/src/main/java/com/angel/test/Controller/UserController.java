@@ -44,4 +44,6 @@ public class UserController {
     public String test(){
         return "test";
     }
+    @PostMapping(value =  "a")
+    public Object A(){return HttpResult.ok("Ok");}
 }

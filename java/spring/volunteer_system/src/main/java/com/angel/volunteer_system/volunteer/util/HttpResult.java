@@ -1,16 +1,14 @@
-package com.angel.test.util.Http;
+package com.angel.volunteer_system.volunteer.util;
 
 import lombok.Data;
-import org.springframework.stereotype.Component;
 
 /**
  * @Author: Angel_zou
- * @Date: Created in 23:08 2020/8/1
+ * @Date: Created in 15:02 2020/11/17
  * @Connection: ahacgn@gmail.com
- * @Description: http工具类
+ * @Description: Http工具类
  */
 @Data
-@Component
 public class HttpResult {
     private int status;
     private String message;
@@ -22,12 +20,6 @@ public class HttpResult {
                 .setMessage(message)
                 .setData(null);
     }
-    public static HttpResult error(String message,Object object){
-        return new HttpResult()
-                .setStatus(400)
-                .setMessage(message)
-                .setData(object);
-    }
 
     public static HttpResult error(int status, String message){
         return new HttpResult()
@@ -35,13 +27,6 @@ public class HttpResult {
                 .setMessage(message)
                 .setData(null);
     }
-    public static HttpResult send(int status, String message, Object data){
-        return new HttpResult()
-                .setStatus(status)
-                .setMessage(message)
-                .setData(data);
-    }
-
 
     public static HttpResult ok(Object data){
         return new HttpResult()

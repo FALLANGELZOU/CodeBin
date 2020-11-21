@@ -8,7 +8,7 @@ spring:
     # mysql 8 中间加上 cj，mysql 5 不用加
     driver-class-name: com.mysql.cj.jdbc.Driver
     # 数据库的ip地址、端口号、数据库名
-    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
     # 登录名、密码
     username: root
     password: mzpsn1121

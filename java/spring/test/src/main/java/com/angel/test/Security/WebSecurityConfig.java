@@ -5,6 +5,8 @@ import com.angel.test.Filter.JwtAuthenticationFilter;
 import com.angel.test.Filter.JwtLoginFilter;
 import com.angel.test.Service.Impl.CustomUserDetailsService;
 import com.angel.test.Service.VerifyCodeService;
+import lombok.SneakyThrows;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
@@ -13,14 +15,24 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.logout.LogoutHandler;
+import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
+import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,7 +47,14 @@ import java.util.List;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private final VerifyCodeService verifyCodeService;
 
+    @Autowired
+    MyLogoutSuccessHandler myLogoutSuccessHandler;
 
+    @Autowired
+    MyAuthenticationEntryPoint myAuthenticationEntryPoint;
+
+    @Autowired
+    MyLogoutHandler myLogoutHandler;
     //  两个默认角色
     public static String ADMIN = "ROLE_ADMIN";
 
@@ -57,10 +76,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public WebSecurityConfig(VerifyCodeService verifyCodeService) {
         this.verifyCodeService = verifyCodeService;
     }
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
     @Bean
     public DaoAuthenticationProvider daoAuthenticationProvider() {
 
@@ -70,6 +91,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         provider.setUserDetailsService(new CustomUserDetailsService());
         return provider;
     }
+
     @Bean
     CustomAuthenticationFilter customAuthenticationFilter() throws Exception {
         CustomAuthenticationFilter filter = new CustomAuthenticationFilter();
@@ -105,7 +127,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers(PERMIT_ALL_MAPPING)
                 .permitAll()
-                .antMatchers("/api/user/**", "/api/data", "/api/logout")
+
+                .antMatchers("/api/user/**", "/api/data")
                 // USER 和 ADMIN 都可以访问
                 .hasAnyAuthority(USER, ADMIN)
                 .antMatchers("/api/admin/**")
@@ -113,20 +136,44 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .hasAnyAuthority(ADMIN)
                 .anyRequest()
                 .authenticated()
+
+
                 .and()
+
                 // 添加过滤器链,前一个参数过滤器， 后一个参数过滤器添加的地方
                 // 登陆过滤器
                 .addFilterBefore(new JwtLoginFilter("/api/login", authenticationManager(), verifyCodeService), UsernamePasswordAuthenticationFilter.class)
                 // 请求过滤器
                 .addFilterBefore(new JwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
+
                 // 开启跨域
                 .cors()
+
+
                 .and()
                 // 开启 csrf
                 .csrf()
                 // .disable();
                 .ignoringAntMatchers(PERMIT_ALL_MAPPING)
-                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
+                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
+
+                .and()
+
+                //  自定义退出
+                .logout()
+                .logoutRequestMatcher(new AntPathRequestMatcher("/api/logout","POST"))
+                .addLogoutHandler(myLogoutHandler)
+                .logoutSuccessHandler(myLogoutSuccessHandler)
+                .permitAll()
+
+                
+                .and()
+                .sessionManagement()
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+
+                .and()
+                .exceptionHandling().authenticationEntryPoint(myAuthenticationEntryPoint);
+
     }
 
     @Override

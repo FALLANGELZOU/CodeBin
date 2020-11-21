@@ -1,0 +1,17 @@
+#jwt配置
+jwt:
+  tokenHeader: Authorization
+  tokenPrefix: Bearer
+  secret: Angela_zou
+  expiration: 43200000
+  rememberExpiration: 604800
+  tokenHead: "Bearer "
+server:
+  port: 8080
+# rsa配置
+rsa:
+  key:
+    privateKeyFile: ./id_rsa_private_key.key
+    publicKeyFile: ./id_rsa_public_key.pub
+    secret: (EMOK:)_$^11244^%$_(IS:)_@@++--(COOL:)_++++_.sds_(GUY:)
+
